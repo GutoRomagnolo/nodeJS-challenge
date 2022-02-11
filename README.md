@@ -3,7 +3,18 @@ Este script realiza o registro de informações dos usuários. Através de algun
 as informações em um arquivo JSON na saída.
 #### Entrada: input.csv
 #### Saída:  output.json
+# Inicialização
 
+    node index.js
+Após execução, checar arquivo .JSON criado no diretório.
+## Dependências de biblioteca
+
+    npm install csv-parse
+
+    npm install fs
+
+    npm install lodash
+    
 # Opções de configuração
 
 O script possui um objeto de configuração de alguns parâmetros.
